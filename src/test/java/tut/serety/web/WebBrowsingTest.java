@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SerenityRunner.class)
 public class WebBrowsingTest {
-    @Managed
+    @Managed()
     WebDriver driver;
 
     @Test
